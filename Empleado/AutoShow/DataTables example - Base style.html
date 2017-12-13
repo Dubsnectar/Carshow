@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://datatables.net/examples/styling/display.html -->
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>DataTables example - Base style</title>
+	<link rel="shortcut icon" type="image/png" href="https://datatables.net/media/images/favicon.png">
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.datatables.net/rss.xml">
+	<link rel="stylesheet" type="text/css" href="./DataTables example - Base style_files/site-examples.css">
+	<link rel="stylesheet" type="text/css" href="./DataTables example - Base style_files/jquery.dataTables.min.css">
+	<style type="text/css" class="init">
+	
+	</style>
+	<script type="text/javascript" async="" src="./DataTables example - Base style_files/ga.js"></script><script type="text/javascript" src="./DataTables example - Base style_files/site.js">
+	</script>
+	<script type="text/javascript" src="./DataTables example - Base style_files/dynamic.php" async="">
+	</script>
+	<script type="text/javascript" language="javascript" src="./DataTables example - Base style_files/jquery-1.12.3.js">
+	</script><style type="text/css"></style>
+	<script type="text/javascript" language="javascript" src="./DataTables example - Base style_files/jquery.dataTables.min.js">
+	</script>
+	<script type="text/javascript" language="javascript" src="./DataTables example - Base style_files/demo.js">
+	</script>
+	<script type="text/javascript" class="init">
+	
+$(document).ready(function() {
+	$('#example').DataTable();
+} );
+
+	</script>
+</head>
+<body class="wide comments example">
+	
+				<div id="example_wrapper" class="dataTables_wrapper"><div class="dataTables_length" id="example_length"><label>Show <select name="example_length" aria-controls="example" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="example_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="example"></label></div><table id="example" class="display dataTable" cellspacing="0" width="100%" role="grid" aria-describedby="example_info" style="width: 100%;">
+					<thead>
+						<tr role="row"><th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Name: activate to sort column ascending" style="width: 136px;">Name</th><th class="sorting_asc" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Position: activate to sort column descending" style="width: 216px;" aria-sort="ascending">Position</th><th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 102px;">Office</th><th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 42px;">Age</th><th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 92px;">Start date</th><th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Salary: activate to sort column ascending" style="width: 79px;">Salary</th></tr>
+					</thead>
+					<tfoot>
+						<tr><th rowspan="1" colspan="1">Name</th><th rowspan="1" colspan="1">Position</th><th rowspan="1" colspan="1">Office</th><th rowspan="1" colspan="1">Age</th><th rowspan="1" colspan="1">Start date</th><th rowspan="1" colspan="1">Salary</th></tr>
+					</tfoot>
+					<tbody>						
+					<tr role="row" class="odd">
+							<td class="">Airi Satou</td>
+							<td class="sorting_1">Accountant</td>
+							<td>Tokyo</td>
+							<td>33</td>
+							<td>2008/11/28</td>
+							<td>$162,700</td>
+						</tr><tr role="row" class="even">
+							<td class="">Garrett Winters</td>
+							<td class="sorting_1">Accountant</td>
+							<td>Tokyo</td>
+							<td>63</td>
+							<td>2011/07/25</td>
+							<td>$170,750</td>
+						</tr><tr role="row" class="odd">
+							<td class="">Angelica Ramos</td>
+							<td class="sorting_1">Chief Executive Officer (CEO)</td>
+							<td>London</td>
+							<td>47</td>
+							<td>2009/10/09</td>
+							<td>$1,200,000</td>
+						</tr><tr role="row" class="even">
+							<td class="">Paul Byrd</td>
+							<td class="sorting_1">Chief Financial Officer (CFO)</td>
+							<td>New York</td>
+							<td>64</td>
+							<td>2010/06/09</td>
+							<td>$725,000</td>
+						</tr><tr role="row" class="odd">
+							<td class="">Yuri Berry</td>
+							<td class="sorting_1">Chief Marketing Officer (CMO)</td>
+							<td>New York</td>
+							<td>40</td>
+							<td>2009/06/25</td>
+							<td>$675,000</td>
+						</tr><tr role="row" class="even">
+							<td class="">Fiona Green</td>
+							<td class="sorting_1">Chief Operating Officer (COO)</td>
+							<td>San Francisco</td>
+							<td>48</td>
+							<td>2010/03/11</td>
+							<td>$850,000</td>
+						</tr><tr role="row" class="odd">
+							<td class="">Donna Snider</td>
+							<td class="sorting_1">Customer Support</td>
+							<td>New York</td>
+							<td>27</td>
+							<td>2011/01/25</td>
+							<td>$112,000</td>
+						</tr><tr role="row" class="even">
+							<td class="">Serge Baldwin</td>
+							<td class="sorting_1">Data Coordinator</td>
+							<td>Singapore</td>
+							<td>64</td>
+							<td>2012/04/09</td>
+							<td>$138,575</td>
+						</tr><tr role="row" class="odd">
+							<td class="">Gavin Joyce</td>
+							<td class="sorting_1">Developer</td>
+							<td>Edinburgh</td>
+							<td>42</td>
+							<td>2010/12/22</td>
+							<td>$92,575</td>
+						</tr><tr role="row" class="even">
+							<td class="">Jonas Alexander</td>
+							<td class="sorting_1">Developer</td>
+							<td>San Francisco</td>
+							<td>30</td>
+							<td>2010/07/14</td>
+							<td>$86,500</td>
+						</tr></tbody>
+				</table><div class="dataTables_info" id="example_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div><div class="dataTables_paginate paging_simple_numbers" id="example_paginate"><a class="paginate_button previous disabled" aria-controls="example" data-dt-idx="0" tabindex="0" id="example_previous">Previous</a><span><a class="paginate_button current" aria-controls="example" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="example" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="example" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="example" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button " aria-controls="example" data-dt-idx="5" tabindex="0">5</a><a class="paginate_button " aria-controls="example" data-dt-idx="6" tabindex="0">6</a></span><a class="paginate_button next" aria-controls="example" data-dt-idx="7" tabindex="0" id="example_next">Next</a></div></div>
+				
+					
+	
+
+<div id="lbOverlay" style="display: none;"></div><div id="lbCenter" style="display: none;"><div id="lbImage"><div style="position: relative;"><a id="lbPrevLink" href="https://datatables.net/examples/styling/display.html#"></a><a id="lbNextLink" href="https://datatables.net/examples/styling/display.html#"></a></div></div></div><div id="lbBottomContainer" style="display: none;"><div id="lbBottom"><a id="lbCloseLink" href="https://datatables.net/examples/styling/display.html#"></a><div id="lbCaption"></div><div id="lbNumber"></div><div style="clear: both;"></div></div></div></body></html>
